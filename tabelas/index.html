@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas - Linguagem de Programação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exemplo de Tabela - Notas de Alunos</h1>
+    
+    <!-- Tabela com dados de alunos -->
+    <table id="tabela-alunos">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+                <th>Média</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lucas</td>
+                <td>8</td>
+                <td>7</td>
+                <td>9</td>
+                <td class="media">-</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td class="media">-</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>9</td>
+                <td>10</td>
+                <td>8</td>
+                <td class="media">-</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Botão para calcular médias -->
+    <button onclick="calcularMedias()">Calcular Médias</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
